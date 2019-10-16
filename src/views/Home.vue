@@ -25,7 +25,7 @@ export default {
   methods: {
     initNimSDK () {
       var that = this
-      this.nim = window.SDK.NIM.getInstance({
+      window.min = this.nim = window.SDK.NIM.getInstance({
       // debug: true,
         appKey: '4b024821f348f78566c75dea9b0b285e',
         account: '1f7086e015e6eaad20cdc911ce025587',
