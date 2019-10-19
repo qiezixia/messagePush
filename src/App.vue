@@ -1,9 +1,20 @@
 <template>
   <div id="app">
-    <div>首页</div>
-    <router-view/>
+    <message-push></message-push>
+    <!-- <router-view/> -->
+    <div @click="test()">dklkfh</div>
   </div>
 </template>
+
+<script>
+export default {
+  methods: {
+    test () {
+      this.$messageNotification.reduceMessage()
+    }
+  }
+}
+</script>
 
 <style lang="scss">
 #app {

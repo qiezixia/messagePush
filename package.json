@@ -2,7 +2,7 @@
   "name": "test-component-liu",
   "version": "0.7.0",
   "private": false,
-  "author":"caixia",
+  "author": "caixia",
   "main": "./lib/my-test.umd.min.js",
   "license": "MIT",
   "scripts": {
@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "notification": "http://192.168.74.76/web-plugins/notification.git",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",
     "vuex": "^3.0.1"

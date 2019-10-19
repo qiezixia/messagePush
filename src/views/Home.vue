@@ -86,7 +86,7 @@ export default {
   computed: {
     messageNum () {
       let unread = 0
-      this.sessionsList.length ? unread = this.sessionsList[0].unread : unread = 0
+      this.sessionsList.length ? unread = this.sessionsList[1].unread : unread = 0
       return unread
     }
   }
